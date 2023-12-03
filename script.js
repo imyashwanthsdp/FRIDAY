@@ -131,8 +131,8 @@ else if (message.toLowerCase() === "good afternoon") {
 else if (message.toLowerCase() === "good night") {
   botMessage = `<div class="chat-message bot">FRIDAY: sar paduko inka yemundhile</div>`;
 }
-else if (message.toLowerCase() === "") {
-  botMessage = `<div class="chat-message bot">FRIDAY: </div>`;
+else if (message.toLowerCase() === "yekkadiki povalabba?") {
+  botMessage = `<div class="chat-message bot">FRIDAY: kompaku po!</div>`;
 }
 else if (message.toLowerCase() === "rcb cup kodthadha?") {
   botMessage = `<div class="chat-message bot">FRIDAY: yemo sir nak kanapadadhu</div>`;
@@ -185,6 +185,32 @@ else if (message.toLowerCase() === "iam feeling sad") {
 else if (message.toLowerCase() === "exam pass avthana") {
   botMessage = `<div class="chat-message bot">FRIDAY: yemo aa shivayyake thelusu</div>`;
 }
+else if (message.toLowerCase() === "physics important questions for fat") {
+  botMessage = `<div class="chat-message bot">FRIDAY: wave equation,wave equation verification problems,reflection and transmission coefficient(only formulas,standing wave equation very important,line,surface,volume integrals vunna leka poyyina okate,Maxwells equation differential and integral form,em wave interms of elctric field and magnetic field,compton effect formula and definition,davisson and german experiment postulates,observations,tunneling effect,weins displacement law,stephen boltz man law,debroglie and braggs laws,schrodinger wave equation very very important brotheru!,particle in 1 d box lo okkate derivation vundhi adhi nerchuko,einsteins coefficients derivation,population inversion definition,HE-NE laser,co2 laser,NDYAG laser just chuskondi backup plan lagha!,fiber optics lo definitions and formulas anthe...</div>`;
+}
+else if (message.toLowerCase() === "physics m1 important questions") {
+  botMessage = `<div class="chat-message bot">FRIDAY: wave equation,wave equation verification problems,reflection and transmission coefficient(only formulas,standing wave equation very important</div>`;
+}
+else if (message.toLowerCase() === "physics m2 important questions") {
+  botMessage = `<div class="chat-message bot">FRIDAY: surface,volume integrals vunna leka poyyina okate,Maxwells equation differential and integral form,em wave interms of elctric field and magnetic field</div>`;
+}
+else if (message.toLowerCase() === "physics m3 important questions") {
+  botMessage = `<div class="chat-message bot">FRIDAY: compton effect formula and definition,davisson and german experiment postulates,observations,tunneling effect,weins displacement law,stephen boltz man law,debroglie and braggs laws,schrodinger wave equation very very important brotheru!</div>`;
+}
+else if (message.toLowerCase() === "physics m4 important questions") {
+  botMessage = `<div class="chat-message bot">FRIDAY: particle in 1 d box lo okkate derivation vundhi adhi nerchuko</div>`;
+}
+else if (message.toLowerCase() === "physics m5 important questions") {
+  botMessage = `<div class="chat-message bot">FRIDAY: einsteins coefficients derivation,population inversion definition,HE-NE laser,co2 laser,NDYAG laser just chuskondi backup plan lagha!</div>`;
+}
+else if (message.toLowerCase() === "physics m6 important questions") {
+  botMessage = `<div class="chat-message bot">FRIDAY: fiber optics lo definitions and formulas anthe...</div>`;
+}
+else if (message.toLowerCase() === "boothulu nerpinchu") {
+  botMessage = `<div class="chat-message bot">FRIDAY: nerpinchanu nenu neeku,malli chedipothav ra! groundfloor muskoni po raa...</div>`;
+}
+
+
     else {
       botMessage = `<div class="chat-message bot">FRIDAY: nak thelvadh</div>`;
     }
