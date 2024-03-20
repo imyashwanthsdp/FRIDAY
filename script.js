@@ -105,7 +105,7 @@ else if (message.toLowerCase() === "yashwanth") {
   botMessage = `<div class="chat-message bot">FRIDAY: chala manchodu</div>`;
 }
 else if (message.toLowerCase() === "gokul lover") {
-  botMessage = `<div class="chat-message bot">FRIDAY: dimpul</div>`;
+  botMessage = `<div class="chat-message bot">FRIDAY: flat!</div>`;
 }
 else if (message.toLowerCase() === "gnanith lover") {
   botMessage = `<div class="chat-message bot">FRIDAY: medha</div>`;
