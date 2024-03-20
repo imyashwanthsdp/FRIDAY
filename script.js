@@ -14,6 +14,12 @@ function sendMessage() {
     else if (message.toLowerCase() === "i love you") {
       botMessage = `<div class="chat-message bot">FRIDAY: REALLY! I 2 love you very much.</div>`;
     }
+      else if (message.toLowerCase() === "lokesh") {
+  botMessage = `<div class="chat-message bot">FRIDAY: yedhava ante veede,bewarse nayala vadu</div>`;
+}
+        else if (message.toLowerCase() === "gnanith crush") {
+  botMessage = `<div class="chat-message bot">FRIDAY: sivakami madam</div>`;
+}
     else if (message.toLowerCase() === "what am i studying?") {
       botMessage = `<div class="chat-message bot">FRIDAY: Your are studying software engineering in Mtech Integrated.</div>`;
     }
